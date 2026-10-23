@@ -75,3 +75,16 @@ Data pulled from vidIQ on 2026-10-23. The video analysis comes from 3 downloaded
 - **Never copy their stories, mascot, logo or name.** Our stories are original, and we never reuse their character designs. Close imitation risks YouTube "reused content" demonetisation and impersonation strikes.
 - Stories are presented as fiction or storytelling. We don't claim specific real people or events as true.
 - Animation is the expensive part, so the production plan in `CLAUDE.md` covers how we generate it.
+
+## 7. Every-frame measurements (optical flow, 30fps), compared with our v1 render
+| | Dad Lied | Football | Tapped Back | **Ours v1** |
+|---|---|---|---|---|
+| Hard cuts | 11 (one every 5.5s) | **2** (a continuous flying camera) | 19 | 14 |
+| Frames with the camera moving | 86% | 91% | 55% | **43%** |
+| Camera pan speed p90 (px/frame @1080) | 24 | 16 | 8 | **1** |
+| Zoom speed p90 (%/frame) | 3.2 | 2.2 | 1.7 | **0.2** |
+| Character motion (acting) p50 (px/frame) | 28 | 20 | 23 | **1.5** |
+| Frames that are near-still | 1% | 0% | 3% | **31%** |
+
+**Conclusion:** the gap is motion. Their characters act all the time and their camera flies through the scene, often with no cuts at all. Our v1 used still images with slow drifts: about 15× less character motion and 10× slower camera moves.
+Sound: between words their audio sits about 20 dB down and is dominated by a low-end bed (20–100 Hz) with light ambience, so there is no loud SFX wall. The voice carries the video.

@@ -1,0 +1,55 @@
+@start:kf01 Grandpa whistles two clear notes, high then low, then smiles and waves. Camera: fast low-angle dolly in from the yard toward him, slight fisheye. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (birds, a soft two-note whistle, wind chimes), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf02 Grandpa purses his lips and whistles a high note then a low note, his eyes smiling. Camera: slow orbit around his face. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (two-note human whistle, birds), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf03 The little boy purses his lips and whistles back, waves, then runs out through the gate laughing. Camera: quick whip pan from the porch onto the boy, then follows him. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (child whistling, gate creak, footsteps on stone), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf04 Grandpa calls out softly and smiles, tapping the railing twice. Camera: gentle handheld push in. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (birds, wooden railing tap), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf05 Milo walks fast with his head down while his friends behind him laugh hard and whistle mockingly at him. Camera: fisheye tracking shot moving backward in front of Milo. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (teen boys laughing, mocking whistle, footsteps on leaves), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf06 Milo cringes and pulls his hood up. Camera: fast push in to his eyes. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (muffled laughter, fabric rustle), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf07 Grandpa whistles two notes; Milo keeps walking and never turns around; Grandpa's whistle fades. Camera: slow creep over Grandpa's shoulder. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (two-note whistle, footsteps on stone fading, evening crickets), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf08 Milo spins around and shouts angrily toward the porch, throwing his hands out. Camera: low angle, fast arc around Milo. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (angry footsteps, gust of wind), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf09 Grandpa nods slowly, looks down, and turns away into the house. Camera: very slow push in, then holds. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (quiet evening crickets, screen door creak), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf10 The empty rocking chair rocks once in the wind and the porch light flickers on. Camera: slow pull back. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (creaking rocking chair, light wind, crickets), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf11 Milo carves hard down the slope, spraying snow onto the lens, friends cheering behind. Camera: fast tracking shot alongside him, snow hits the lens. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (snowboard carving, wind rush, friends cheering), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf12 Milo ducks under the rope and drops into the deep powder off the trail. Camera: low near the snow, whip pans to follow him. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (rope rattle, whoosh, powder snow crunch), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf13 Thick fog rolls in over everything while Milo spins around, lost. Camera: slow push in as fog swallows the frame. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (howling wind, snow hiss), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf14 The phone screen flickers, shows the low battery warning, and dies to black. Camera: static close-up with slight handheld shake. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (low battery beep, wind), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf15 Milo screams into the dark forest, his voice echoing. Camera: fast pull back from his face to a wide shot where he is tiny. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (strong wind, echoing scream without words, creaking trees), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:bg_search The line of rescuers with headlamps searches slowly across the mountain in the fog. Camera: slow aerial drone push over the slope. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (distant radio static, wind, snowmobile engine far away), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:scene_tree Milo shivers under the pine tree, then slowly lifts his head as if he heard something. Camera: slow push in to his face. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (heartbeat, soft wind, branches creaking), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf18 A faint warm light flickers far away between the trees in the fog. Camera: slow push into the fog. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (very distant two-note whistle, wind), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf19 Milo whistles weakly with his cracked lips, breath vapor rising. Camera: static extreme close-up, slight shake. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (weak breathy whistle, wind), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf20 Grandpa wades closer through the snow, whistling loudly, sweeping the flashlight beam. Camera: slow dolly back as he advances. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (two-note whistle, deep snow footsteps, wind), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf21 The flashlight beam sweeps across and lands on Milo's face; he squints and starts to cry with relief. Camera: quick push in as the light hits. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (flashlight click, whoosh, crying breath), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:scene_hero Grandpa pushes forward through waist-deep snow, flashlight beam cutting the fog. Camera: heroic low-angle dolly in. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (deep snow crunching, wind, heavy breathing), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf23 The lodge door bangs open in the wind and snow blows in; the scarf on the empty chair flutters. Camera: slow push toward the empty chair. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (door bang, howling wind, crackling fire), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:scene_hug Grandpa holds Milo tightly and rocks him gently in the snow. Camera: slow orbit around them. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (soft wind, crying, snow falling), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:scene_snowmobile They ride the snowmobile down the mountain at sunrise, Milo resting his head on Grandpa's back. Camera: smooth tracking shot alongside them. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (snowmobile engine, snow spray), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf26 Grandpa smiles softly and looks down at Milo, eyes glistening. Camera: slow push in. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (soft wind, distant birds), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf27 Grandpa softly whistles two quiet notes as the little boy walks away, dreamy memory. Camera: slow drift sideways, dreamy. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (quiet two-note whistle, birds), no music, no speech, no dialogue. No text, no subtitles.
+
+@start:kf28 A single tear rolls down Grandpa's cheek and he smiles. Camera: very slow push in to his eyes. Stylized 3D animated film, smooth natural character animation, expressive acting, cinematic motion blur. Sound: only natural sound effects (birds, gentle breeze), no music, no speech, no dialogue. No text, no subtitles.
