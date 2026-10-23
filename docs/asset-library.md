@@ -92,3 +92,41 @@ Everything else for a location (rooms, terrain, skies, lighting) comes free from
 
 ## 8. Storage
 150–200 models with textures come to several GB. Before the first push, decide **Git LFS** (`*.fbx`, `*.glb`, `*.png` under `assets/3d/`) and check the GitHub LFS quota, and keep a second copy on Google Drive.
+
+## 9. Review by the scene-engine chat (2026-10-23)
+**Decisions**
+1. **Milo 10 as the default:** agreed. Script 01 still needs milo6, milo15, milo17, grandpa, grandpa_winter and three friends, so those go first.
+2. **Locations, not only objects.** HisStory reuses the same few sets over and over (the blue hospital room appears in many Shorts). I'll build **6 reusable location .blend files** once: Grandpa's porch and yard, the family kitchen/living room, Milo's bedroom, a school classroom and hallway, a hospital room, and a street. They're assembled from Tripo set pieces, Poly Haven and primitives. Block D should feed these six first.
+3. **Faces: the pilot decides,** with this checklist on the free Tripo milo15:
+   - (i) Are the eyes separate geometry or painted onto the texture?
+   - (ii) Is there a mouth opening?
+   - (iii) Is the mesh clean enough for shape keys?
+   If the answers are no, no, no, then **(b)**: hero cast faces/bodies come from MPFB (real eyeballs, so the gold-wedge iris is just a texture; a face rig; stylized with head/eye proportion targets), with hair and clothes from Tripo as separate meshes. Faceit (c) needs clean quad topology around the eyes and mouth, which Tripo meshes usually lack, so try it only if the pilot shows a clean mesh. Lip-sync is needed for quoted dialogue (Grandpa's "Kiddo…"). Rhubarb plus 6–8 mouth shapes is enough.
+4. **Storage:** `.gitattributes` for LFS is added. Before the first push, check the LFS quota in GitHub Billing (the free quota is small). Keep the repo **private** (Mixamo terms) and keep a Drive backup.
+5. **Pilot first:** agreed. Also measure Eevee speed on the M1: run `engine/blender/walk_test.py` at 720×1280 and write down seconds per frame.
+
+**Draft slate 02–10 and assets missing from the lists above**
+| # | Working title | Core idea | Missing assets |
+|---|---|---|---|
+| 02 | The Lunch Lady Knew | She quietly paid Milo's lunch debt for years | lunch_lady (character), cafeteria counter, tray, school cafeteria set |
+| 03 | Dad's Watch Stopped At 4:17 | Milo mocks Dad's broken watch; it stopped the minute Milo was born and nearly didn't make it | wristwatch, hospital delivery room, baby, incubator |
+| 04 | The New Kid Who Never Talked | Milo (10) sits with silent Theo; years later Theo returns the favour | lunch table, school bus interior |
+| 05 | Grandma's Coin Jar | Milo steals coins for a game; the jar was his college fund | video-game controller/console, graduation stage |
+| 06 | Mom Always "Already Ate" | Poverty; Mom skipped dinner for years | refrigerator (open, empty), mom_work_uniform |
+| 07 | The Dog That Barked Every Night | The neighbour's "annoying" dog wakes the house during a fire | fire truck, smoke alarm, smoke/fire (Blender FX) |
+| 08 | I Was Ashamed Of Dad's Job | Dad is the school janitor; twist at the award assembly | dad_janitor variant, mop and bucket, auditorium seats, stage |
+| 09 | Theo's Last Pass | A football final and a hospital promise | stadium stand (set), scoreboard |
+| 10 | The Card That Came Every Birthday | Anonymous cards every year, from Grandpa, even after he died | gravestone (already listed), mailbox (already listed), a stack of old cards |
+
+**Growth ideas (additions)**
+- **Captions are applied after rendering in our engine**, so every language version only re-runs captions + audio, with no 3D re-render. Language order: Spanish, Portuguese, Hindi, then Indonesian.
+- **Series numbering** in the description ("Milo's Memory #12") plus a pinned "all memories" playlist. Recurring Easter eggs (the whistle, the crescent, the M) get people commenting without asking them to.
+- Don't add a CTA or end card: the competitor never uses one, and the seamless loop gives more rewatches.
+- Start "Her" only after Milo reaches about 50 posted Shorts, so the library is already paid off.
+
+**Before paying**
+- [ ] Pilot render approved on the Mac (body + walk + camera + face test)
+- [ ] Eevee seconds/frame measured on the M1
+- [ ] Repo private, LFS quota checked, Drive backup folder ready
+- [ ] Mixamo/Adobe login works
+- [ ] Calendar reminder to cancel Tripo Pro 2 days before renewal

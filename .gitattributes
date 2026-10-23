@@ -1,0 +1,9 @@
+# 3D library: store binary assets in Git LFS
+assets/3d/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.glb filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.exr filter=lfs diff=lfs merge=lfs -text
+assets/3d/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+assets/sets/**/*.blend filter=lfs diff=lfs merge=lfs -text
