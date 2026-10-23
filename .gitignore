@@ -1,0 +1,5 @@
+projects/*/tmp/
+projects/*/stills/
+projects/*/mix.wav
+projects/*/render.mp4
+__pycache__/
