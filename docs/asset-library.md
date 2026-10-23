@@ -1,6 +1,6 @@
-# Asset library: one paid month, used for every Short after it
+# Asset library: one paid month ($14), used for every Short after it
 
-Goal: in **one month of Tripo Pro** ($20, 3000 credits, about 200 models), generate every reusable 3D asset the channel will need for months of daily Shorts, store it in this repo, then cancel.
+Goal: in **one month of Tripo Pro** ($20, 3000 credits, about 200 models), generate the core reusable 3D library (~100 textured models) the channel will need for months of daily Shorts, store it in this repo, then cancel.
 Quality bar: the HisStory look (`research/competitor-analysis.md` §4) with our own brand (`brand/brand-guide.md`).
 
 > Status: **plan, nothing bought yet.** The user pays and cancels the subscription herself. Claude does the generation in Chrome.
@@ -11,18 +11,24 @@ Quality bar: the HisStory look (`research/competitor-analysis.md` §4) with our 
 - Mixamo: free with an Adobe account. Animations can be used in monetized videos, but the raw animation files can't be redistributed. **Keep this repo private.**
 - Meshy Free (fallback): CC BY 4.0, which allows commercial use with the credit "3D models: Meshy". Front image only, "Meshy 6 Lite" quality.
 
-## 1. Credit budget (3000 credits)
-The exact credit cost of multi-view + HD + texture is checked on the first generation and written here. The working assumption is ~15 credits per model (3000 ÷ 200).
+## 1. Price and credit budget (checked 2026-10-23 on tripo3d.ai/pricing)
+- Pro, monthly: **$14 the first month (30% off), then renews at $20/month**. Cancel before the renewal date. Refunds are only for accidental purchases, requested within 24h with no credits used.
+- Extra credits if needed: **$10 = 1000 credits**.
+- Credit costs (Tripo FAQ): HD Generate **15**, Texture Gen **+10**, HD Texture **+10**, Ultra **+15**, Auto Rig **20**.
+  - A character (HD + texture + HD texture) = **35 credits**.
+  - A prop (HD + texture) = **25 credits**.
+  - "≈200 models" on the pricing page means untextured models, so **the real number is about 90–100 textured models**, not 180.
 
-| Block | Models | Share |
+| Block | Models | Credits |
 |---|---|---|
-| A. Hero and recurring characters (multi-view, HD) | ~30 | ~25% (multi-view and retries cost more) |
-| B. Outfit and age variants | ~15 | ~10% |
-| C. Props | ~90 | ~45% |
-| D. Set pieces (large objects that make a location) | ~20 | ~10% |
-| E. Reserve for retries and asset requests from new scripts | ~25 | ~10% |
+| A + B. Hero, recurring and variant characters | ~25 | ~875 |
+| Retries for faces (Milo above all) | ~10 | ~350 |
+| Pets (dog, cat) incl. Tripo Auto Rig | 2 | ~110 |
+| C + D. Props and set pieces most needed by scripts 01–10 | ~65 | ~1625 |
+| **Total** | **~100** | **~2960 / 3000** |
 
-Order: A → set pieces and props needed by scripts 01–10 → the rest of C/D → E. If the credits run out, the bottom of each list is dropped first.
+Order: A → the props and set pieces scripts 01–10 need → the rest. The remaining props in §5/§6 are added later, as scripts need them, with a $10 credit pack (~40 props) instead of a second month.
+Simple props (a mug, a book, a box) can be untextured (15 credits) and given flat materials in Blender, which matches the stylised look and saves 10 credits each.
 
 ## 2. Input image rules (quality depends on this more than anything)
 Pro includes image generation (Nano Banana etc.) that costs no 3D credits, so every input image is made inside Tripo with the same **style lock**:
