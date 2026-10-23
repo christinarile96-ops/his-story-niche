@@ -1,37 +1,19 @@
-# 01: Grandpa's Whistle, image prompts for Nano Banana (Google Flow)
+# 01: Grandpa's Whistle, prompts for TryAIToday Flow Automator (Image tab)
 
-## How it all fits
-- **You (Nano Banana):** characters and their poses on chroma green, empty environment plates, plus 4 full "hero" scenes where the characters have to touch the environment (the hug, the snowmobile).
-- **Me (code):**
-  - keying out the green and compositing each character into the plates in 3D layers with real parallax
-  - camera moves (push-ins, orbits, handheld drift, whip pans)
-  - contact shadows, colour-matching each character to the scene light
-  - procedural snow, fog, breath vapour, the flashlight beam and lens flare, the white-out
-  - the dying phone screen, the "6 HRS" clock, the rope-duck moment
-  - captions, every sound effect, the music, voice cutting and the 1080×1920 60fps export
+These follow the Flow Automator format: one prompt per block with a blank line between blocks, `#name` names the image a prompt creates, and `@name` reuses a named image as a reference for that prompt. Leave the **Reference Images (Subject/Scene/Style) slots empty**. Every reference is handled by `@tags` inside the prompts.
 
-## Settings in Flow
-- Model: **Nano Banana 2** (or Nano Banana Pro if you have it)
-- Resolution: **the highest available** (4K if offered, otherwise 2K). Never 1K.
-- Aspect ratio: as written in each file name (`9x16` = portrait, `16x9` = landscape)
-- Outputs per prompt: **2**. Send me both; I'll pick.
+**Settings for every run:** Nano Banana 2 (or Pro) · highest quality/resolution available (4K, else 2K) · images-per-prompt **1** for RUN1, **2** for the other runs.
 
-## Order (important for consistency)
-1. **A_reference_sheets_16x9.txt** (no reference). Pick the best sheet of each and name them:
-   - A1 = Milo age 6
-   - A2 = Milo age 15
-   - A3 = Milo age 17 (snow)
-   - A4 = Grandpa (flannel)
-   - A5 = Grandpa (winter coat)
-   - A6 = the 3 friends
+| Run | File | Aspect ratio | What |
+|---|---|---|---|
+| 1 | `RUN1_16x9_character_sheets.txt` | **16:9** | 6 character sheets, named `#milo6 #milo15 #milo17 #grandpa #grandpa_winter #friends` |
+| ⏸ | **Stop and send me the 6 sheets.** If one is off, re-run just that block. If you prefer a different image, rename it in Flow to the same name (the newest image with a name wins). |
+| 2 | `RUN2_9x16_scenes_poses_backgrounds.txt` | **9:16** | 9 backgrounds (`#bg_*`), 21 poses on green (`#gj_*`, `#gjw_*`, `#m6_*`, `#m15_*`, `#m17_*`, `#friends_laugh`), 4 hero scenes (`#scene_*`) |
+| 3 | `RUN3_1x1_profile_picture.txt` | **1:1** | `#brand_avatar` |
+| 4 | `RUN4_16x9_banner.txt` | **16:9** | `#brand_banner` |
 
-   **Send me these first, before batch B,** so I can check that Milo looks right.
-2. Each **B** file and the **D** file: attach the reference images named in its file name, e.g. `B5_..._attach_A3` means attach sheet A3, then paste the prompts.
-3. **C** (environments): no reference needed. You can run it in parallel with A.
-4. **E** (brand: profile picture and banner): attach A2.
+Runs 2–4 reuse the sheets from run 1 through `@milo17`, `@grandpa_winter` and the other names, so run 1 has to finish first.
 
-## Sending back
-Zip each batch and keep the file names, or just keep the download order. I can identify every image by looking at it.
+**Send back:** the downloaded run folders (zip them). The `#names` tell me exactly what each image is.
 
-## Format of the .txt files
-One prompt per paragraph, with a blank line between prompts. If the Flow Automator wants one prompt per line, every prompt is already on a single line, so just delete the blank lines.
+What I build in code is listed in `scripts/01-grandpas-whistle.md` and the main `CLAUDE.md`: the compositing, camera moves, snow, fog, the flashlight beam, the phone screen, captions, sound and the export.
