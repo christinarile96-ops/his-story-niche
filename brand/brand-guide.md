@@ -11,12 +11,14 @@ Why not "Her Story", "His Tale" and similar: that lane is crowded with clones an
 
 ## Mascot: Milo
 - Age 10–12 in childhood stories; in "adult" stories he narrates, and we show him older with the same look.
-- **Jet-black messy hair with one white streak** in the fringe. This is the silhouette people should recognise at thumbnail size.
-- Light freckles, warm brown eyes, slightly oversized ears and a gap-tooth smile.
-- **Mustard-yellow hoodie** with a small navy **"M"** patch on the chest (the logo); hood strings always visible.
-- Navy joggers with a single white side stripe, and white high-top sneakers.
+- **Hair:** thick, fluffy **platinum silver-white** hair, messy and wavy, with one big **curled cowlick "wave crest"** sticking up and forward at the front. This is the silhouette people should recognise at thumbnail size, the way the competitor's orange curls are.
+- **Eyes:** bright **ice-blue**, and the **left iris has a bold golden-amber wedge** (sectoral heterochromia). It's rarer and more striking than the competitor's two different-coloured eyes, and it isn't a copy.
+- **Mark:** a tiny **crescent-moon birthmark** just under the left eye, which also works as a logo detail.
+- Light freckles and a gap-tooth smile when he's little.
+- **Outfit:** an oversized **mustard-yellow hoodie** with a small navy **"M"** patch on the chest and long hood strings, navy cargo joggers, and white high-tops with **yellow laces**.
+- **Family trait:** Grandpa Joe has the **same white cowlick swoosh**, and stories can call back to it.
 - Supporting cast reused across stories so fans recognise them:
-  - **Grandpa Joe**: grey beard, red plaid flannel
+  - **Grandpa Joe**: white beard, white cowlick, red plaid flannel
   - **Mom**: brown bob, green cardigan
   - **Dad**: stubble, navy work jacket
   - **best friend Theo**: buzz cut, orange tee
