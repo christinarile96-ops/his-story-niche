@@ -1,6 +1,6 @@
 # Asset library: one paid month ($14), used for every Short after it
 
-Goal: in **one month of Tripo Pro** ($20, 3000 credits, about 200 models), generate the core reusable 3D library (~100 textured models) the channel will need for months of daily Shorts, store it in this repo, then cancel.
+Goal: in **one month of Tripo Pro** ($14 first month, 3000 credits), generate the core reusable 3D library (~100 textured models) the channel will need for months of daily Shorts, store it in this repo, then cancel.
 Quality bar: the HisStory look (`research/competitor-analysis.md` §4) with our own brand (`brand/brand-guide.md`).
 
 > Status: **plan, nothing bought yet.** The user pays and cancels the subscription herself. Claude does the generation in Chrome.
