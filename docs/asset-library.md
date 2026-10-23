@@ -136,3 +136,8 @@ Everything else for a location (rooms, terrain, skies, lighting) comes free from
 - [ ] Repo private, LFS quota checked, Drive backup folder ready
 - [ ] Mixamo/Adobe login works
 - [ ] Calendar reminder to cancel Tripo Pro 2 days before renewal
+
+## 10. Update after the pilot (2026-10-23), see `docs/pilot-results.md`
+- **Tripo meshes have painted eyes and mouths, so they can't blink or talk.** The hero and recurring cast moves to **MPFB** (free, CC0, ARKit face units and visemes as shape keys). This replaces Block A and Block B of the Tripo budget.
+- Tripo is still the best option for **props and set pieces**. That needs fewer credits, so a **$10 credit pack (~40 props)** may be enough instead of a Pro month. Check first that credit-pack purchases count as "Paid User" for commercial rights.
+- Don't pay until the hoodie and brand details are on the MPFB Milo and the Mac speed test is done.
