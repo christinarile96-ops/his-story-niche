@@ -18,10 +18,10 @@ Christina pays **one month** of Tripo Pro. I generate a permanent library: ~30 h
 2. **Library scope.** Is the prop list right for the kinds of stories you plan (family, school, sacrifice, hospital, money)? What's missing for scripts 02–10? Please write those scripts' asset needs into the doc.
 3. **Faces: the biggest quality gap versus HisStory.** Tripo meshes have no facial rig, so with Mixamo alone the faces are frozen. Options:
    - (a) scripted face shape keys in Blender (blink, mouth open, smile, frown) plus Rhubarb lip-sync;
-   - (b) **hybrid: Blender for wide and medium shots, bodies and the flying camera, and an image-to-video model (Kling/Veo) for the 2–3 emotional close-ups per Short, using a Blender render as the start frame**;
-   - (c) build the hero characters in MPFB, which has face expressions, and only use Tripo for props.
+   - (b) build the hero characters in MPFB, which has a free face rig and expressions, styled to the brand guide, and only use Tripo for props and set pieces;
+   - (c) a one-time facial rig per Tripo character with an auto face-rigging add-on (e.g. Faceit, paid once) that gives ARKit-style shape keys.
 
-   **I lean (b) plus (a) for blinks.** It needs a 10-second test before Christina pays.
+   **Christina does NOT want Kling/Veo or any per-video AI video in the pipeline.** Everything must be pure Blender, and face work is done **once per character** and then reused in every Short. I lean **(a) or (c) for the hero cast, decided by the test**: can a Tripo mesh even blink, or are its eyes baked into the texture? (b) is the fallback. This needs the 10-second test before she pays.
 4. **Storage.** **Git LFS for `assets/3d/**`**, keep the repo private (Mixamo terms), and a Google Drive backup. Can you set up `.gitattributes` now?
 5. **Pilot before paying.** **You build a 10s Blender test on her Mac using a free Tripo model of milo15** (non-commercial, test only, never published): rig → walk → camera push-in → face test. If that looks right, she pays and I start the library the same day.
 
